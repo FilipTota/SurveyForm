@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Survey Form</title>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=Comfortaa&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <h3 class="h3">Job application</h3>
+                <p>Please fill the following survey form</p>
+            </header>
+            <form>
+                <ul>
+                    <li>
+                        <div class="div-label">
+                            <label class="label-size"><strong>Name</strong></label>
+                        </div>
+                        <div class="div-input">
+                            <input type="text" name="name" class="input-size" placeholder="Enter your name" required>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="div-label">
+                            <label class="label-size"><strong>Email</strong></label>
+                        </div>
+                        <div class="div-input">
+                            <input type="text" name="email" class="input-size" placeholder="Enter your email" required>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="div-label">
+                            <label class="label-size"><strong>Date of birth</strong></label>
+                        </div>
+                        <div class="div-input">
+                            <input type="date" name="birthday" class="input-size" placeholder="Age" required>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="div-label">
+                            <label class="label-size"><strong>Gender</strong></label>
+                        </div>
+                        <div class="div-input">
+                            <input type="radio" name="gender">Male
+                            <br>
+                            <input type="radio" name="gender">Female
+                            <br>
+                            <input type="radio" name="gender">Other
+                        </div>
+                        <li>
+                            <div class="div-label">
+                                <label class="label-size"><strong>Known programming languages</strong></label>
+                            </div>
+                            <div class="div-input">
+                                <input type="checkbox" name="checkbox">Javascript
+                                <br>
+                                <input type="checkbox" name="checkbox">Python
+                                <br>
+                                <input type="checkbox" name="checkbox">Java
+                                <br>
+                                <input type="checkbox" name="checkbox">C
+                                <br>
+                                <input type="checkbox" name="checkbox">C++
+                                <br>
+                                <input type="checkbox" name="checkbox">PHP
+                                <br>
+                                <input type="checkbox" name="checkbox">Swift
+                                <br>
+                                <input type="checkbox" name="checkbox">C#
+                                <br>
+                                <input type="text" name="checkbox" class="checkbox-text" placeholder="More languages">
+                            </div>
+                            <div class="label-size">
+                                <label><strong>Any comments or suggestions?</strong></label>
+                            </div>
+                            <div class="input-size">
+                                <input type="example" name="example" class="comment" placeholder="Enter your comment here...">
+                            </div>
+                            <div class="div-submit">
+                                <input type="submit" name="submit" class="submit-button">
+                            </div>
+                        </li>
+                    </li>
+                </ul>
+            </form>
+        </div>
+    </body>
+</html>
